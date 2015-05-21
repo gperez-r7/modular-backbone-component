@@ -1,8 +1,6 @@
 module.exports = function(grunt) {
    var pkgjson = require('./package.json');
 
-   var bowerPath = 'vendor';
-
    // Configuration
    grunt.initConfig({
       config: {
@@ -26,9 +24,9 @@ module.exports = function(grunt) {
          prod: {
             options: {
                baseUrl: "<%= config.app %>/js",
-               mainConfigFile: "<%= config.app %>/main.js",
+               mainConfigFile: "<%= config.app %>/js/main.js",
                include: "main",
-               name: "../<%= config.vendor %>/almond/almond",
+               name: "../../<%= config.vendor %>/almond/almond",
                optimize: 'uglify2',
                out: "<%= config.dist %>/js/<%= config.name %>.min.js",
                uglify2: {
