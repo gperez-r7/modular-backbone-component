@@ -1,0 +1,12 @@
+
+# WebStorm IDE
+.idea
+
+#Bower
+vendor
+
+# Node
+node_modules
+
+# output
+dist

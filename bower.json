@@ -1,0 +1,36 @@
+{
+  "name": "modular-backbone-component",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gperez-r7/modular-backbone-component",
+  "authors": [
+    "Gerardo Perez <gerardo_perez@rapid7.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.17",
+    "backbone": "~1.2.0",
+    "underscore": "~1.8.3",
+    "requirejs-text": "~2.0.14",
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4"
+  },
+  "resolutions": {
+    "backbone": "1.0.0 - 1.1.2",
+    "underscore": ">=1.5.0",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4"
+  },
+  "devDependencies": {
+    "almond": "~0.3.1"
+  }
+}
