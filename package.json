@@ -1,6 +1,6 @@
 {
   "name": "modular-backbone-component",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Example backbone AMD library",
   "main": "index.js",
   "scripts": {
